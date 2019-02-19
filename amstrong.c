@@ -11,7 +11,13 @@ a=a/10;
 rem=a%10;
 sum=sum+rem*rem*rem;
 }
-if(n==sum)
-  prinf("yes");
-getch();
+if (n==sum)
+{
+  printf("yes");
+}
+  else
+  {
+    printf("no");
+  }
+  getch();
 }  
